@@ -1,0 +1,15 @@
+#disc{
+	list-style-type: disc;
+}
+#latin{
+	list-style-type: lower-latin;
+}
+#roman{
+	list-style-type: circle;
+}
+#title{
+	list-style-type: square;
+}
+body{
+	font-family: Arial;
+}
