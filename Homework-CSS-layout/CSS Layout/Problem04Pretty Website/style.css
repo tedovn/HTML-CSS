@@ -1,0 +1,139 @@
+body {
+    font-family: arial, helvetica, freesans, sans-serif;
+    background-color: #101415;
+}
+
+body #wrapper {
+    background: #FFFFFF;
+    width: 80%;
+    margin: 0 auto;
+}
+
+body #wrapper div nav {
+    display: inline-block;
+    width: 100%;
+}
+
+body #wrapper div nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+body #wrapper div nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-align: center;
+}
+
+body #wrapper div nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #8A6161;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0 3%;
+    line-height: 40px;
+    border-right: 4px solid #ffffff;
+}
+
+body #wrapper div nav ul li a:hover {
+    background: #BEBEBE;
+    color: #ffffff;
+}
+
+body #wrapper > header {
+    background: url(img/headerBackground.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    color: #ffffff;
+}
+
+body #wrapper > header div {
+    padding-top: 20%;
+}
+
+body #wrapper > header div h1 {
+    text-align: right;
+    padding-bottom: 30px;
+    margin: 0;
+    margin-right: 5%;
+}
+
+body #wrapper > #nav {
+    background: -webkit-linear-gradient(#f0f0f0, #dddddd);
+    background: -o-linear-gradient(#f0f0f0, #dddddd);
+    background: -moz-linear-gradient(#f0f0f0, #dddddd);
+    background: linear-gradient(#f0f0f0, #dddddd);
+}
+
+body #wrapper > #nav nav {
+    margin-bottom: 4px;
+    border-bottom: 2px solid white;
+}
+aside{
+    margin: 20px auto;
+    vertical-align: top;
+    margin-left:40px;
+    /*border: ridge;*/
+    display: inline-block;
+    width: 20%;
+    border-radius: 10px;
+
+}
+#main-content{
+
+    width: 68%;
+   display: inline-block;
+}
+#main-content > header{
+    margin:  20px 0 0 40px;
+    border: ridge;
+    border-radius: 10px;
+}
+#content > section{
+    margin: 20px 0 40px 40px;
+    border:ridge;
+    border-radius: 10px;
+}
+#news{
+    border: ridge;
+    border-radius: 10px;
+    background: silver;
+    padding-left: 15px;
+    font-size: 15px;
+}
+#messages{
+    border: ridge;
+    border-radius: 10px;
+    margin-top:10px;
+    padding: 15px;
+}
+#footer{
+    padding-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    /*border: ridge;*/
+    background: greenyellow;
+}
+.images{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+h6{
+    font-size: 15px;
+    font-weight: bold;
+}
+#space{
+    padding-bottom: 10px;
+}
+#messages > p{
+    padding:0;
+    margin: 0;
+}
+.dateTime{
+    font-weight: bold;
+}
